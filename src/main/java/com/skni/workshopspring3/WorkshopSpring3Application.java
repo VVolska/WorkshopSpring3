@@ -51,6 +51,9 @@ public class WorkshopSpring3Application {
 			System.out.println(studentService.deleteStudentById(studentFemale.getId()));
 			System.out.println(studentService.getAllStudents());
 
+			System.out.println("Zadanie 7");
+			System.out.println(studentService.getStudentsByGenderAndUniversityName(GenderEnum.MALE.name(), "SGH"));
+
 		};
 	}
 }

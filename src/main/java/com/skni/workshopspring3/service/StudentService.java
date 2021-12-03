@@ -54,4 +54,7 @@ public class StudentService {
         return false;
     }
 
+    public List<Student> getStudentsByGenderAndUniversityName(String gender, String universityName) {
+        return studentRepository.findAllByGenderAndUniversityName(gender, universityName);
+    }
 }

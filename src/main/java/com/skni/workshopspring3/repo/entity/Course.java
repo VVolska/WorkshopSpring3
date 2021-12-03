@@ -27,7 +27,7 @@ public class Course {
     @Column(name = "semester")
     private int semester;
 
-    @Column(name = "universityName")
+    @Column(name = "university_name")
     private String universityName;
 
     @Enumerated(EnumType.STRING)
